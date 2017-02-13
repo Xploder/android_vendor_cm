@@ -14,6 +14,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
+ro.substratum.verified=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
 # Default notification/alarm sounds
@@ -122,8 +125,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMFileManager \
     CMSettingsProvider \
-    CMUpdater \
-    CyanogenSetupWizard \
     Eleven \
     ExactCalculator \
     LiveLockScreenService \
@@ -135,6 +136,10 @@ PRODUCT_PACKAGES += \
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
+
+# OMS MASQUERADE
+PRODUCT_PACKAGES += \
+masquerade
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
