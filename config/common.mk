@@ -142,7 +142,8 @@ PRODUCT_PACKAGES += \
 
 # OMS MASQUERADE
 PRODUCT_PACKAGES += \
-masquerade
+masquerade \
+projekt.substratum.theme.xml
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
