@@ -141,9 +141,9 @@ PRODUCT_PACKAGES += \
     Exchange2
 
 # OMS MASQUERADE
-PRODUCT_PACKAGES += \
-masquerade \
-projekt.substratum.theme.xml
+#PRODUCT_PACKAGES += \
+#masquerade \
+#projekt.substratum.theme.xml
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
