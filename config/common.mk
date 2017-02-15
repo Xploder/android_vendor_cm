@@ -87,6 +87,9 @@ PRODUCT_COPY_FILES += \
 # Include CM audio files
 include vendor/cm/config/cm_audio.mk
 
+# Include vendor/extra
+include vendor/extra/Android.mk
+
 # Theme engine
 include vendor/cm/config/themes_common.mk
 
